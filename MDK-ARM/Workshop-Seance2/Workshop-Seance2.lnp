@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp.sp
+"workshop-seance2\system_stm32f4xx.o"
+"workshop-seance2\stm32f4xx_hal_pwr_ex.o"
+"workshop-seance2\stm32f4xx_hal_tim_ex.o"
+"workshop-seance2\stm32f4xx_hal_pwr.o"
+"workshop-seance2\stm32f4xx_hal_flash.o"
+"workshop-seance2\stm32f4xx_hal_rcc.o"
+"workshop-seance2\stm32f4xx_hal_flash_ex.o"
+"workshop-seance2\stm32f4xx_hal_gpio.o"
+"workshop-seance2\stm32f4xx_hal_dma.o"
+"workshop-seance2\stm32f4xx_hal.o"
+"workshop-seance2\stm32f4xx_hal_rcc_ex.o"
+"workshop-seance2\stm32f4xx_hal_cortex.o"
+"workshop-seance2\stm32f4xx_hal_adc.o"
+"workshop-seance2\stm32f4xx_hal_adc_ex.o"
+"workshop-seance2\stm32f4xx_hal_uart.o"
+"workshop-seance2\stm32f4xx_hal_dma_ex.o"
+"workshop-seance2\stm32f4xx_hal_tim.o"
+"workshop-seance2\stm32f4xx_hal_flash_ramfunc.o"
+"workshop-seance2\main.o"
+"workshop-seance2\stm32f4xx_it.o"
+"workshop-seance2\stm32f4xx_hal_msp.o"
+"workshop-seance2\startup_stm32f407xx.o"
+--library_type=microlib --strict --scatter "Workshop-Seance2\Workshop-Seance2.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Workshop-Seance2.map" -o Workshop-Seance2\Workshop-Seance2.axf
